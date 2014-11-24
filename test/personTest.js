@@ -8,6 +8,12 @@ describe("Person", function(){
 			
 		p1.greet(p2).should.equal("Hello, Collis!");
 		});
+		
+		it("greets strings", function(){
+		var p1 = new Person("Jeff");
+		p1.greet("Collis").should.equal("Hello, Collis!");
+		});
+		
 	});
 		
 		
