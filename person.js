@@ -3,7 +3,7 @@ Person = function(name){
 }
 
 Person.prototype.greet = function(person){
-		return "Hello,avdgdsg "+ person.name + "!";
+		return "Hello,avdgdsasdfsdfg "+ person.name + "!";
 };
 
 	
